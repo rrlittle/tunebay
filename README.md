@@ -5,7 +5,7 @@ q=skateboarding+dog <- the query
 &
 type=video
 &
-key=AIzaSyBkT0pcDCFaA5uMpsfEX7hOvof_MYmR6wY <- actually my api key
+key= <- actually my api key
 (can be found at https://console.developers.google.com/apis/credentials)
 
 RESULTS
