@@ -1,0 +1,10 @@
+.SearchTitle {
+  padding-left: 2em;
+  border-radius: 16px;
+  border: 1px solid #ccc;
+  width: 95%;
+}
+.SearchTitle:focus {
+  outline-style: none;
+  border: 3px solid #ccc;
+}
