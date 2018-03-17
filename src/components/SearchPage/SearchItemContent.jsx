@@ -7,18 +7,27 @@ import { observer } from "mobx-react";
 
 export const SearchItemContent = observer(({ searchItem }) => (
   <Grid>
-    <Grid.Row>
-      <Grid.Column width={4}>
-        <PreviewPane activeResult={searchItem.activeResult} />
-      </Grid.Column>
-      <Grid.Column width={12} floated="right">
-        <Grid.Row style={{ borderBottom: "1px solid #ccc" }}>
-          <ControlsPane searchItem={searchItem} />
-        </Grid.Row>
-        <Grid.Row>
-          <ResultsPane searchItem={searchItem} />
-        </Grid.Row>
-      </Grid.Column>
-    </Grid.Row>
+    {searchItem.activeResult ? (
+      <Grid.Row>
+        <Grid.Column width={4}>
+          <PreviewPane
+            activeResult={searchItem.activeResult}
+            searchItem={searchItem}
+          />
+        </Grid.Column>
+        <Grid.Column width={12} floated="right">
+          <Grid.Row style={{ borderBottom: "1px solid #ccc" }}>
+            <ControlsPane searchItem={searchItem} />
+          </Grid.Row>
+          <Grid.Row>
+            <ResultsPane searchItem={searchItem} />
+          </Grid.Row>
+        </Grid.Column>
+      </Grid.Row>
+    ) : (
+      <Grid.Row>
+        <ResultsPane searchItem={searchItem} />
+      </Grid.Row>
+    )}
   </Grid>
 ));

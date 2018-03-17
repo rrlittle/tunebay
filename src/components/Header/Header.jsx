@@ -30,12 +30,12 @@ export const Header = props => {
             >
               <Image alt="logo" src={imageUrl} size="small" />
             </Grid.Column>
-            <Grid.Column verticalAlign="middle" width={11}>
+            <Grid.Column verticalAlign="middle" width={10}>
               <SemHeader as="h4" floated="left">
                 {title}
               </SemHeader>
             </Grid.Column>
-            <Grid.Column floated="right" verticalAlign={"middle"} width={3}>
+            <Grid.Column floated="right" verticalAlign={"middle"} width={4}>
               <GlobalHeaderUserDropdown />
             </Grid.Column>
           </Grid.Row>

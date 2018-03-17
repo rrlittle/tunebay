@@ -2,6 +2,7 @@ import React from "react";
 import { Segment, Accordion } from "semantic-ui-react";
 import { SearchItemContent } from "./SearchItemContent";
 import { SearchTitle } from "./SearchTitle";
+import { observer } from "mobx-react";
 
 export class SearchItem extends React.Component {
   constructor(props) {
@@ -10,8 +11,14 @@ export class SearchItem extends React.Component {
     this.state = { open: defaultOpen };
   }
 
-  setOpen = open =>
+  toggleOpen = open => {
+    const { searchItem } = this.props;
+    const { results, doSearch } = searchItem;
+    // if there currently are no results in the search item and You're toggling it open trigger search
+    if (results.length === 0 && !this.state.open) doSearch();
+
     this.setState({ open: open === undefined ? !this.state.open : open });
+  };
 
   render() {
     const { searchItem } = this.props;
@@ -20,11 +27,13 @@ export class SearchItem extends React.Component {
       <Segment>
         <Accordion>
           <Accordion.Title>
-            <SearchTitle setOpen={this.setOpen} searchItem={searchItem} />
+            <SearchTitle setOpen={this.toggleOpen} searchItem={searchItem} />
           </Accordion.Title>
-          <Accordion.Content active={open}>
-            <SearchItemContent searchItem={searchItem} />
-          </Accordion.Content>
+          {open && (
+            <Accordion.Content active={open}>
+              <SearchItemContent searchItem={searchItem} />
+            </Accordion.Content>
+          )}
         </Accordion>
       </Segment>
     );

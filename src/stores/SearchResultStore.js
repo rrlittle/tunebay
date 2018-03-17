@@ -7,8 +7,9 @@ export class SearchResultStore {
   @observable active;
   @observable thumbnail;
   @observable title;
+  @observable parent;
 
-  constructor({ id, active, thumbnail, title }) {
+  constructor({ parent, id, active, thumbnail, title }) {
     this.id = id;
     this.active = active;
     this.thumbnail = thumbnail;

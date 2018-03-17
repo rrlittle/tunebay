@@ -1,5 +1,5 @@
 import React from "react";
-import { Segment } from "semantic-ui-react";
+import { Segment, Header } from "semantic-ui-react";
 import { Result } from "./Result";
 import { observer } from "mobx-react";
 
@@ -10,19 +10,23 @@ export const ResultsPane = observer(({ searchItem }) => {
       basic
       style={{
         width: "100%",
-        height: "100px",
+        maxHeight: "100px",
         overflowY: "scroll",
         padding: 0
       }}
     >
-      {searchItem.results.map(result => (
-        <Result
-          key={result.id}
-          result={result}
-          setActiveResult={setActiveResult}
-          active={result === activeResult}
-        />
-      ))}
+      {searchItem.results.length > 0 ? (
+        searchItem.results.map(result => (
+          <Result
+            key={result.id}
+            result={result}
+            setActiveResult={setActiveResult}
+            active={result === activeResult}
+          />
+        ))
+      ) : (
+        <Header textAlign="center">No Results Found</Header>
+      )}
     </Segment>
   );
 });

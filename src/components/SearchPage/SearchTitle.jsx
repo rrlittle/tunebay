@@ -1,40 +1,77 @@
 import React from "react";
 import { Button, Grid, Icon } from "semantic-ui-react";
-import "./title.css";
+import { TitleInput } from "../common";
+import { observer, inject } from "mobx-react";
 
-export const SearchTitle = ({ searchItem, setOpen }) => {
-  const { query, updateQuery } = searchItem;
-  return (
-    <Grid stackable>
-      <Grid.Row style={{ padding: 0 }}>
-        <Grid.Column width={14} verticalAlign="middle">
-          <span style={{ width: "5%" }}>
-            <Icon name="dropdown" onClick={() => setOpen()} />
-          </span>
-          <input
-            className="SearchTitle"
-            value={query}
-            onChange={e => updateQuery(e.target.value)}
-          />
-        </Grid.Column>
-        <Grid.Column verticalAlign="middle" width={2} floated="right">
-          <Button.Group floated="right">
-            <Button
-              disabled={true}
-              primary
-              onClick={() => setOpen(true)}
-              icon="search"
+export const SearchTitle = inject("searchesStore")(
+  observer(({ searchItem, setOpen, searchesStore }) => {
+    const { deleteSearch } = searchesStore;
+    const {
+      query,
+      updateQuery,
+      queryValid,
+      queryDirty,
+      doSearch,
+      activeResult,
+      readyToSearch,
+      readyToDownload
+    } = searchItem;
+
+    const localDoSearch = () => {
+      setOpen(true);
+      doSearch();
+    };
+    return (
+      <Grid stackable>
+        <Grid.Row style={{ padding: 0 }}>
+          <Grid.Column width={13} verticalAlign="middle">
+            <span style={{ width: "5%" }}>
+              <Icon name="dropdown" onClick={() => setOpen()} />
+            </span>
+            <TitleInput
+              value={query}
+              onKeyPress={e => {
+                if (e.key === "Enter") {
+                  if (readyToSearch) localDoSearch();
+                  else if (readyToDownload) alert("DOWNLOAD THIS THING");
+                }
+              }}
+              onChange={(e, { value }) => updateQuery(value)}
             />
-            <Button
-              disabled={true}
-              content="Download"
-              onClick={() =>
-                alert("Download should delete this thing and move it to queue")
-              }
-            />
-          </Button.Group>
-        </Grid.Column>
-      </Grid.Row>
-    </Grid>
-  );
-};
+          </Grid.Column>
+          <Grid.Column
+            style={{ minWidth: 100 }}
+            verticalAlign="middle"
+            floated="right"
+            width={3}
+          >
+            <Button.Group>
+              <Button
+                disabled={!readyToSearch}
+                primary
+                onClick={localDoSearch}
+                icon="search"
+              />
+              <Button
+                disabled={!readyToDownload}
+                positive
+                icon="download"
+                onClick={() =>
+                  alert(
+                    "Download should delete this thing and move it to queue"
+                  )
+                }
+              />
+
+              <Button
+                negative
+                icon="trash"
+                onClick={() => deleteSearch(searchItem)}
+              />
+            </Button.Group>
+          </Grid.Column>
+        </Grid.Row>
+      </Grid>
+    );
+  })
+);
