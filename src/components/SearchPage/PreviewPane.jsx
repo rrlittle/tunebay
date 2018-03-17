@@ -20,7 +20,6 @@ export const PreviewPane = observer(({ activeResult, searchItem }) => {
       key={`${id}${playTo}${playFrom}`}
       videoId={id}
       opts={opts}
-      onStateChange={(a, b, c) => console.log("ON START CHANGE", a, b, c)}
       onReady={e => !durationSet && setDuration(0, e.target.getDuration())}
     />
   );

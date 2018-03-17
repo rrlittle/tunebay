@@ -1,0 +1,25 @@
+{
+  "searches": [],
+  "queue": [
+    {
+      "query": "july talk",
+      "videoId": {
+        "id": "_nIzWfhzqp4",
+        "thumbnail": "https://i.ytimg.com/vi/_nIzWfhzqp4/default.jpg",
+        "title": "July Talk - Picturing Love"
+      },
+      "id": 1
+    },
+    {
+      "query": "jenny",
+      "video": {
+        "id": "hyj4JFSErrw",
+        "thumbnail": "https://i.ytimg.com/vi/hyj4JFSErrw/default.jpg",
+        "title": "Jenny (OFFICIAL MUSIC VIDEO)"
+      },
+      "playFrom": 57,
+      "playTo": 178,
+      "id": 2
+    }
+  ]
+}

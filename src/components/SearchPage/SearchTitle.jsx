@@ -14,12 +14,16 @@ export const SearchTitle = inject("searchesStore")(
       doSearch,
       activeResult,
       readyToSearch,
-      readyToDownload
+      readyToDownload,
+      download
     } = searchItem;
 
     const localDoSearch = () => {
       setOpen(true);
       doSearch();
+    };
+    const localDoDownload = () => {
+      download();
     };
     return (
       <Grid stackable>
@@ -33,7 +37,7 @@ export const SearchTitle = inject("searchesStore")(
               onKeyPress={e => {
                 if (e.key === "Enter") {
                   if (readyToSearch) localDoSearch();
-                  else if (readyToDownload) alert("DOWNLOAD THIS THING");
+                  else if (readyToDownload) localDoDownload();
                 }
               }}
               onChange={(e, { value }) => updateQuery(value)}
@@ -56,11 +60,7 @@ export const SearchTitle = inject("searchesStore")(
                 disabled={!readyToDownload}
                 positive
                 icon="download"
-                onClick={() =>
-                  alert(
-                    "Download should delete this thing and move it to queue"
-                  )
-                }
+                onClick={() => localDoDownload()}
               />
 
               <Button

@@ -53,9 +53,12 @@
     "whatwg-fetch": "2.0.3"
   },
   "scripts": {
-    "start": "node scripts/start.js",
+    "start": "concurrently \"npm run client\" \"npm run api\"",
     "build": "node scripts/build.js",
-    "test": "node scripts/test.js --env=jsdom"
+    "test": "node scripts/test.js --env=jsdom",
+    "api":
+      "json-server --watch api/db.json --routes api/routes.json --port 3001",
+    "client": "node scripts/start.js"
   },
   "devDependencies": {
     "concurrently": "^3.5.1",

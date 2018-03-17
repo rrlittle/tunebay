@@ -27,6 +27,7 @@ export const Header = props => {
               verticalAlign="middle"
               width={2}
               className="img-wrapper"
+              style={{ padding: 0 }}
             >
               <Image alt="logo" src={imageUrl} size="small" />
             </Grid.Column>

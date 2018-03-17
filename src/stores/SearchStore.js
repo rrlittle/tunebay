@@ -38,7 +38,7 @@ export class SearchStore {
   }
   @computed
   get queryValid() {
-    return this.query.length >= 5;
+    return this.query.length >= 3;
   }
 
   @computed
@@ -131,5 +131,23 @@ export class SearchStore {
           this.setActiveResult(null);
         })
       );
+  };
+  @action
+  download = () => {
+    fetch(`${this.parent.api_domain}/queue`, {
+      method: "POST",
+      headers: {
+        Accept: "application/json",
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({
+        query: this.searchQuery,
+        video: this.activeResult,
+        playFrom: this.playFrom,
+        playTo: this.playTo
+      })
+    }).then(resp => {
+      if (resp.ok) this.parent.deleteSearch(this);
+    });
   };
 }

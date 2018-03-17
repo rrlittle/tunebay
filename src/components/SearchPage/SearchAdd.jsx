@@ -2,7 +2,7 @@ import React from "react";
 import { Segment, Button, Grid } from "semantic-ui-react";
 import { TitleInput } from "../common";
 
-const minLength = 5;
+const minLength = 3;
 
 export class SearchAdd extends React.Component {
 	state = { query: "" };
