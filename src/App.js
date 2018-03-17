@@ -8,7 +8,6 @@ import { SearchesStore } from "./stores/SearchesStore";
 
 const thumb1 = "https://i.ytimg.com/vi/R8XAlSp838Y/default.jpg";
 
-("asdfas");
 const searches = [
   {
     id: 1,
