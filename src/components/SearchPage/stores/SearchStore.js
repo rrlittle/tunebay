@@ -4,18 +4,7 @@ import { SearchResultStore } from "./SearchResultStore";
 useStrict(true);
 
 const maxResults = 10;
-const thumb1 = "https://i.ytimg.com/vi/R8XAlSp838Y/default.jpg";
 
-const staticResults = [
-  { id: "eUkSTnUK_T0", active: false, thumbnail: thumb1, title: "FOOBAR3" },
-  {
-    id: "2g811Eo7K8U",
-    active: true,
-    thumbnail: thumb1,
-    title: "FOOBAR2"
-  },
-  { id: "P_SlAzsXa7E", active: false, thumbnail: thumb1, title: "FOOBAR4" }
-];
 export class SearchStore {
   defaultOpen;
 

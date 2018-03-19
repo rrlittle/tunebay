@@ -9,10 +9,7 @@ export const SearchTitle = inject("searchesStore")(
     const {
       query,
       updateQuery,
-      queryValid,
-      queryDirty,
       doSearch,
-      activeResult,
       readyToSearch,
       readyToDownload,
       download

@@ -2,7 +2,6 @@ import React from "react";
 import { Segment, Accordion } from "semantic-ui-react";
 import { SearchItemContent } from "./SearchItemContent";
 import { SearchTitle } from "./SearchTitle";
-import { observer } from "mobx-react";
 
 export class SearchItem extends React.Component {
   constructor(props) {

@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "ag-grid": "^17.0.0",
+    "ag-grid-react": "^17.0.0",
     "autoprefixer": "7.1.6",
     "babel-core": "6.26.0",
     "babel-eslint": "7.2.3",
@@ -40,6 +42,7 @@
     "react": "^16.2.0",
     "react-dev-utils": "^5.0.0",
     "react-dom": "^16.2.0",
+    "react-dom-factories": "^1.0.2",
     "react-router-dom": "^4.2.2",
     "react-youtube": "^7.5.0",
     "semantic-ui-css": "^2.3.0",
@@ -56,8 +59,7 @@
     "start": "concurrently \"npm run client\" \"npm run api\"",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom",
-    "api":
-      "json-server --watch api/db.json --routes api/routes.json --port 3001",
+    "api": "json-server --watch api/db.json --routes api/routes.json --port 3001",
     "client": "node scripts/start.js"
   },
   "devDependencies": {
@@ -65,8 +67,12 @@
     "json-server": "^0.12.1"
   },
   "jest": {
-    "collectCoverageFrom": ["src/**/*.{js,jsx,mjs}"],
-    "setupFiles": ["<rootDir>/config/polyfills.js"],
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx,mjs}"
+    ],
+    "setupFiles": [
+      "<rootDir>/config/polyfills.js"
+    ],
     "testMatch": [
       "<rootDir>/src/**/__tests__/**/*.{js,jsx,mjs}",
       "<rootDir>/src/**/?(*.)(spec|test).{js,jsx,mjs}"
@@ -76,10 +82,11 @@
     "transform": {
       "^.+\\.(js|jsx|mjs)$": "<rootDir>/node_modules/babel-jest",
       "^.+\\.css$": "<rootDir>/config/jest/cssTransform.js",
-      "^(?!.*\\.(js|jsx|mjs|css|json)$)":
-        "<rootDir>/config/jest/fileTransform.js"
+      "^(?!.*\\.(js|jsx|mjs|css|json)$)": "<rootDir>/config/jest/fileTransform.js"
     },
-    "transformIgnorePatterns": ["[/\\\\]node_modules[/\\\\].+\\.(js|jsx|mjs)$"],
+    "transformIgnorePatterns": [
+      "[/\\\\]node_modules[/\\\\].+\\.(js|jsx|mjs)$"
+    ],
     "moduleNameMapper": {
       "^react-native$": "react-native-web"
     },
@@ -94,8 +101,13 @@
     ]
   },
   "babel": {
-    "presets": ["react-app"],
-    "plugins": ["transform-decorators-legacy", "transform-class-properties"]
+    "presets": [
+      "react-app"
+    ],
+    "plugins": [
+      "transform-decorators-legacy",
+      "transform-class-properties"
+    ]
   },
   "eslintConfig": {
     "extends": "react-app"

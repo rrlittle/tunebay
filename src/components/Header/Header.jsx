@@ -11,51 +11,40 @@ import PropTypes from "prop-types";
 import { GlobalHeaderUserDropdown } from "./GlobalHeaderUserDropdown";
 import { NavItem } from "./NavItem";
 
-const imageUrl = `${process.env.PUBLIC_URL}/tunebay.png`;
-
-export const Header = props => {
-  let { title, headers } = props;
-  return (
-    <Segment>
-      <Container>
-        <Grid>
-          <Grid.Row
-            style={{ paddingBottom: "0px", borderBottom: "1px solid #ccc" }}
+export const Header = ({ title, headers, imageUrl }) => (
+  <Segment>
+    <Container>
+      <Grid>
+        <Grid.Row
+          style={{ paddingBottom: "0px", borderBottom: "1px solid #ccc" }}
+        >
+          <Grid.Column
+            floated="left"
+            verticalAlign="middle"
+            width={2}
+            className="img-wrapper"
+            style={{ padding: 0 }}
           >
-            <Grid.Column
-              floated="left"
-              verticalAlign="middle"
-              width={2}
-              className="img-wrapper"
-              style={{ padding: 0 }}
-            >
-              <Image alt="logo" src={imageUrl} size="small" />
-            </Grid.Column>
-            <Grid.Column verticalAlign="middle" width={10}>
-              <SemHeader as="h4" floated="left">
-                {title}
-              </SemHeader>
-            </Grid.Column>
-            <Grid.Column floated="right" verticalAlign={"middle"} width={4}>
-              <GlobalHeaderUserDropdown />
-            </Grid.Column>
-          </Grid.Row>
-          <Grid.Row style={{ padding: 0 }}>
-            <Menu
-              stackable
-              size="small"
-              widths="8"
-              text
-              style={{ marginTop: 0 }}
-            >
-              {headers.map((header, i) => <NavItem {...header} key={i} />)}
-            </Menu>
-          </Grid.Row>
-        </Grid>
-      </Container>
-    </Segment>
-  );
-};
+            <Image alt="logo" src={imageUrl} size="small" />
+          </Grid.Column>
+          <Grid.Column verticalAlign="middle" width={10}>
+            <SemHeader as="h4" floated="left">
+              {title}
+            </SemHeader>
+          </Grid.Column>
+          <Grid.Column floated="right" verticalAlign={"middle"} width={4}>
+            <GlobalHeaderUserDropdown />
+          </Grid.Column>
+        </Grid.Row>
+        <Grid.Row style={{ padding: 0 }}>
+          <Menu stackable size="small" widths="8" text style={{ marginTop: 0 }}>
+            {headers.map((header, i) => <NavItem {...header} key={i} />)}
+          </Menu>
+        </Grid.Row>
+      </Grid>
+    </Container>
+  </Segment>
+);
 
 Header.propTypes = {
   headers: PropTypes.arrayOf(

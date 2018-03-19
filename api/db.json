@@ -1,5 +1,10 @@
 {
-  "searches": [],
+  "searches": [
+    {
+      "query": "jenny",
+      "id": 1
+    }
+  ],
   "queue": [
     {
       "query": "july talk",

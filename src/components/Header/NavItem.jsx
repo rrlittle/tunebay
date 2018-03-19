@@ -3,8 +3,7 @@ import PropTypes from "prop-types";
 import { Dropdown, Menu } from "semantic-ui-react";
 import { NavLink } from "react-router-dom";
 
-export const NavItem = props => {
-  let { to, type, text, options } = props;
+export const NavItem = ({ to, type, text, options }) => {
   const style = { fontSize: 14 };
   let nav = {};
   if (to) nav = { as: NavLink, to: to, exact: true };
