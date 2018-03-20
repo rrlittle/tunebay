@@ -29,8 +29,30 @@ export class Grid extends React.Component {
 					rowModelType={"infinite"}
 					getRowNodeId={getRowNodeId}
 					columnDefs={colDefs}
+					// suppressPaginationPanel={this.state.suppressPaginationPanel}
 				/>
+				{
+					// <Paginator></Paginator>
+				}
 			</div>
 		);
 	}
 }
+
+/**
+Paginator =>
+<div style={{ display: "flex", padding: "6px 0px", marginBottom: "150px" }}>
+          <PageSizeDropdown
+            paginationPageSize={this.gridApi && this.gridApi.paginationGetPageSize()}
+            handleOnPageSizeChange={this.onPageSizeChange.bind(this)}
+            paginationPageSizeOptions={paginationPageSizeOptions}
+          />
+          <Pagination
+            paginationGoToPage={this.onPaginationGoToPage.bind(this)}
+            totalPages={this.gridApi && this.gridApi.paginationGetTotalPages()}
+            activePage={this.gridApi && this.gridApi.paginationGetCurrentPage()}
+          />
+        </div>
+
+
+**/
