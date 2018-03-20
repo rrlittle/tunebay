@@ -123,6 +123,7 @@ export class SearchStore {
   };
   @action
   download = () => {
+    const { id: videoId, title, thumbnail } = this.activeResult;
     fetch(`${this.parent.api_domain}/queue`, {
       method: "POST",
       headers: {
@@ -131,9 +132,11 @@ export class SearchStore {
       },
       body: JSON.stringify({
         query: this.searchQuery,
-        video: this.activeResult,
         playFrom: this.playFrom,
-        playTo: this.playTo
+        playTo: this.playTo,
+        videoId,
+        title,
+        thumbnail
       })
     }).then(resp => {
       if (resp.ok) this.parent.deleteSearch(this);

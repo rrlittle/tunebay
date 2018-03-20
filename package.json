@@ -43,6 +43,7 @@
     "react-dev-utils": "^5.0.0",
     "react-dom": "^16.2.0",
     "react-dom-factories": "^1.0.2",
+    "react-progressbar": "^15.4.1",
     "react-router-dom": "^4.2.2",
     "react-youtube": "^7.5.0",
     "semantic-ui-css": "^2.3.0",
@@ -59,12 +60,16 @@
     "start": "concurrently \"npm run client\" \"npm run api\"",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom",
-    "api": "json-server --watch api/db.json --routes api/routes.json --port 3001",
+    "api": "nodemon  api/server.js",
     "client": "node scripts/start.js"
   },
   "devDependencies": {
+    "chokidar": "^2.0.2",
     "concurrently": "^3.5.1",
-    "json-server": "^0.12.1"
+    "cookie-parser": "^1.4.3",
+    "faker": "^4.1.0",
+    "json-server": "^0.12.1",
+    "nodemon": "^1.17.2"
   },
   "jest": {
     "collectCoverageFrom": [

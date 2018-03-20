@@ -9,26 +9,38 @@ export class Grid extends React.Component {
 	}
 	render() {
 		const {
+			onReady = () => {},
 			sorting,
 			filtering,
 			paginate,
 			getRowNodeId = d => d.id,
-			colDefs = []
+			colDefs = [],
+			defaultRowsPerPage = 10
 		} = this.props;
 
 		return (
 			<div
-				style={{ width: "100%", height: "100%" }}
-				className="fullHeightContainer ag-fresh"
+				style={{
+					width: "80%",
+					height: "100%",
+					marginLeft: "auto",
+					marginRight: "auto"
+				}}
+				className="ag-fresh"
 			>
 				<AgGridReact
-					onGridReady={params => params.api.setDatasource(this)}
+					onGridReady={params => {
+						onReady(params);
+						params.api.setDatasource(this);
+					}}
+					enableColResize={true}
 					pagination={!!paginate}
 					enableServerSideSorting={!!sorting}
 					enableServerSideFilter={!!filtering}
 					rowModelType={"infinite"}
 					getRowNodeId={getRowNodeId}
 					columnDefs={colDefs}
+					cacheBlockSize={defaultRowsPerPage}
 					// suppressPaginationPanel={this.state.suppressPaginationPanel}
 				/>
 				{
