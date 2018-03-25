@@ -1,13 +1,19 @@
 {
-  "searches": [],
+  "search": [
+    {
+      "query": "hgjgj",
+      "id": 1
+    },
+    {
+      "id": 2
+    }
+  ],
   "queue": [
     {
-      "query":
-        "The only kind of people I want counting my money are little short guys that wear yamakas every day.",
+      "query": "The only kind of people I want counting my money are little short guys that wear yamakas every day.",
       "thumbnail": "https://i.ytimg.com/vi/hyj4JFSErrw/default.jpg",
       "playFrom": 57,
-      "title":
-        "One of the key problems today is that politics is such a disgrace. Good people don’t go into government.",
+      "title": "One of the key problems today is that politics is such a disgrace. Good people don’t go into government.",
       "playTo": 178,
       "id": 1,
       "src": {
@@ -32,30 +38,24 @@
       "progress": 50,
       "playTo": 184,
       "id": 2,
-      "title":
-        "You know, it really doesn’t matter what the media write as long as you’ve got a young and beautiful piece of ass."
+      "title": "You know, it really doesn’t matter what the media write as long as you’ve got a young and beautiful piece of ass."
     },
     {
-      "query":
-        "The concept of global warming was created by and for the Chinese in order to make U.S. manufacturing non-competitive.",
+      "query": "The concept of global warming was created by and for the Chinese in order to make U.S. manufacturing non-competitive.",
       "playFrom": 36,
       "playTo": 184,
       "id": 3,
-      "title":
-        "He's not a war hero. He's a war hero because he was captured. I like people that weren't captured, OK, I hate to tell you."
+      "title": "He's not a war hero. He's a war hero because he was captured. I like people that weren't captured, OK, I hate to tell you."
     },
     {
-      "query":
-        "Laziness is a trait in the blacks. ... Black guys counting my money! I hate it.",
+      "query": "Laziness is a trait in the blacks. ... Black guys counting my money! I hate it.",
       "playFrom": 36,
       "playTo": 184,
       "id": 4,
-      "title":
-        "If you can’t get rich dealing with politicians, there’s something wrong with you."
+      "title": "If you can’t get rich dealing with politicians, there’s something wrong with you."
     },
     {
-      "query":
-        "The U.S. will invite El Chapo, the Mexican drug lord who just escaped prison, to become a U.S. citizen because our leaders can't say no!",
+      "query": "The U.S. will invite El Chapo, the Mexican drug lord who just escaped prison, to become a U.S. citizen because our leaders can't say no!",
       "playFrom": 36,
       "playTo": 184,
       "id": 5,
@@ -63,70 +63,56 @@
       "title": "The wall will go up and Mexico will start behaving."
     },
     {
-      "query":
-        "The concept of global warming was created by and for the Chinese in order to make U.S. manufacturing non-competitive.",
+      "query": "The concept of global warming was created by and for the Chinese in order to make U.S. manufacturing non-competitive.",
       "playFrom": 36,
       "playTo": 184,
       "id": 6,
-      "title":
-        "A certificate of live birth is not the same thing by any stretch of the imagination as a birth certificate."
+      "title": "A certificate of live birth is not the same thing by any stretch of the imagination as a birth certificate."
     },
     {
-      "query":
-        "When was the last time anybody saw us beating, let's say, China in a trade deal? They kill us. I beat China all the time. All the time.",
+      "query": "When was the last time anybody saw us beating, let's say, China in a trade deal? They kill us. I beat China all the time. All the time.",
       "playFrom": 36,
       "playTo": 184,
       "id": 7,
-      "title":
-        "The only kind of people I want counting my money are little short guys that wear yamakas every day."
+      "title": "The only kind of people I want counting my money are little short guys that wear yamakas every day."
     },
     {
-      "query":
-        "I will build a great wall — and nobody builds walls better than me, believe me —and I’ll build them very inexpensively. I will build a great, great wall on our southern border, and I will make Mexico pay for that wall. Mark my words.",
+      "query": "I will build a great wall — and nobody builds walls better than me, believe me —and I’ll build them very inexpensively. I will build a great, great wall on our southern border, and I will make Mexico pay for that wall. Mark my words.",
       "playFrom": 36,
       "playTo": 184,
       "id": 8,
-      "title":
-        "A certificate of live birth is not the same thing by any stretch of the imagination as a birth certificate."
+      "title": "A certificate of live birth is not the same thing by any stretch of the imagination as a birth certificate."
     },
     {
       "query": "Listen you mother fuckers, we're going to tax you 25 percent!",
       "playFrom": 36,
       "playTo": 184,
       "id": 9,
-      "title":
-        "If you can’t get rich dealing with politicians, there’s something wrong with you."
+      "title": "If you can’t get rich dealing with politicians, there’s something wrong with you."
     },
     {
-      "query":
-        "The only kind of people I want counting my money are little short guys that wear yamakas every day.",
+      "query": "The only kind of people I want counting my money are little short guys that wear yamakas every day.",
       "playFrom": 36,
       "playTo": 184,
       "id": 10,
-      "title":
-        "You know, it really doesn’t matter what the media write as long as you’ve got a young and beautiful piece of ass."
+      "title": "You know, it really doesn’t matter what the media write as long as you’ve got a young and beautiful piece of ass."
     },
     {
-      "query":
-        "You know, it really doesn’t matter what the media write as long as you’ve got a young and beautiful piece of ass.",
+      "query": "You know, it really doesn’t matter what the media write as long as you’ve got a young and beautiful piece of ass.",
       "playFrom": 36,
       "playTo": 184,
       "id": 11,
-      "title":
-        "The only kind of people I want counting my money are little short guys that wear yamakas every day."
+      "title": "The only kind of people I want counting my money are little short guys that wear yamakas every day."
     },
     {
-      "query":
-        "A certificate of live birth is not the same thing by any stretch of the imagination as a birth certificate.",
+      "query": "A certificate of live birth is not the same thing by any stretch of the imagination as a birth certificate.",
       "playFrom": 36,
       "playTo": 184,
       "id": 12,
-      "title":
-        "If you can’t get rich dealing with politicians, there’s something wrong with you."
+      "title": "If you can’t get rich dealing with politicians, there’s something wrong with you."
     },
     {
-      "query":
-        "You know, it really doesn’t matter what the media write as long as you’ve got a young and beautiful piece of ass.",
+      "query": "You know, it really doesn’t matter what the media write as long as you’ve got a young and beautiful piece of ass.",
       "playFrom": 36,
       "playTo": 184,
       "id": 13,
@@ -134,25 +120,21 @@
       "title": "The wall will go up and Mexico will start behaving."
     },
     {
-      "query":
-        "He's not a war hero. He's a war hero because he was captured. I like people that weren't captured, OK, I hate to tell you.",
+      "query": "He's not a war hero. He's a war hero because he was captured. I like people that weren't captured, OK, I hate to tell you.",
       "playFrom": 36,
       "playTo": 184,
       "id": 14,
-      "title":
-        "The only kind of people I want counting my money are little short guys that wear yamakas every day."
+      "title": "The only kind of people I want counting my money are little short guys that wear yamakas every day."
     },
     {
       "query": "The wall will go up and Mexico will start behaving.",
       "playFrom": 36,
       "playTo": 184,
       "id": 15,
-      "title":
-        "You know, it really doesn’t matter what the media write as long as you’ve got a young and beautiful piece of ass."
+      "title": "You know, it really doesn’t matter what the media write as long as you’ve got a young and beautiful piece of ass."
     },
     {
-      "query":
-        "I will build a great wall — and nobody builds walls better than me, believe me —and I’ll build them very inexpensively. I will build a great, great wall on our southern border, and I will make Mexico pay for that wall. Mark my words.",
+      "query": "I will build a great wall — and nobody builds walls better than me, believe me —and I’ll build them very inexpensively. I will build a great, great wall on our southern border, and I will make Mexico pay for that wall. Mark my words.",
       "playFrom": 36,
       "playTo": 184,
       "id": 16,
@@ -160,8 +142,7 @@
       "title": "Listen you mother fuckers, we're going to tax you 25 percent!"
     },
     {
-      "query":
-        "You know, it really doesn’t matter what the media write as long as you’ve got a young and beautiful piece of ass.",
+      "query": "You know, it really doesn’t matter what the media write as long as you’ve got a young and beautiful piece of ass.",
       "playFrom": 36,
       "playTo": 184,
       "id": 17,
@@ -169,70 +150,56 @@
       "title": "Listen you mother fuckers, we're going to tax you 25 percent!"
     },
     {
-      "query":
-        "One of the key problems today is that politics is such a disgrace. Good people don’t go into government.",
+      "query": "One of the key problems today is that politics is such a disgrace. Good people don’t go into government.",
       "playFrom": 36,
       "playTo": 184,
       "id": 18,
-      "title":
-        "If you can’t get rich dealing with politicians, there’s something wrong with you."
+      "title": "If you can’t get rich dealing with politicians, there’s something wrong with you."
     },
     {
-      "query":
-        "I will build a great wall — and nobody builds walls better than me, believe me —and I’ll build them very inexpensively. I will build a great, great wall on our southern border, and I will make Mexico pay for that wall. Mark my words.",
+      "query": "I will build a great wall — and nobody builds walls better than me, believe me —and I’ll build them very inexpensively. I will build a great, great wall on our southern border, and I will make Mexico pay for that wall. Mark my words.",
       "playFrom": 36,
       "playTo": 184,
       "id": 19,
-      "title":
-        "The U.S. will invite El Chapo, the Mexican drug lord who just escaped prison, to become a U.S. citizen because our leaders can't say no!"
+      "title": "The U.S. will invite El Chapo, the Mexican drug lord who just escaped prison, to become a U.S. citizen because our leaders can't say no!"
     },
     {
-      "query":
-        "A certificate of live birth is not the same thing by any stretch of the imagination as a birth certificate.",
+      "query": "A certificate of live birth is not the same thing by any stretch of the imagination as a birth certificate.",
       "playFrom": 36,
       "playTo": 184,
       "id": 20,
-      "title":
-        "The only kind of people I want counting my money are little short guys that wear yamakas every day."
+      "title": "The only kind of people I want counting my money are little short guys that wear yamakas every day."
     },
     {
-      "query":
-        "One of the key problems today is that politics is such a disgrace. Good people don’t go into government.",
+      "query": "One of the key problems today is that politics is such a disgrace. Good people don’t go into government.",
       "playFrom": 36,
       "playTo": 184,
       "id": 21,
-      "title":
-        "The U.S. will invite El Chapo, the Mexican drug lord who just escaped prison, to become a U.S. citizen because our leaders can't say no!"
+      "title": "The U.S. will invite El Chapo, the Mexican drug lord who just escaped prison, to become a U.S. citizen because our leaders can't say no!"
     },
     {
       "query": "Listen you mother fuckers, we're going to tax you 25 percent!",
       "playFrom": 36,
       "playTo": 184,
       "id": 22,
-      "title":
-        "The U.S. will invite El Chapo, the Mexican drug lord who just escaped prison, to become a U.S. citizen because our leaders can't say no!"
+      "title": "The U.S. will invite El Chapo, the Mexican drug lord who just escaped prison, to become a U.S. citizen because our leaders can't say no!"
     },
     {
-      "query":
-        "He's not a war hero. He's a war hero because he was captured. I like people that weren't captured, OK, I hate to tell you.",
+      "query": "He's not a war hero. He's a war hero because he was captured. I like people that weren't captured, OK, I hate to tell you.",
       "playFrom": 36,
       "playTo": 184,
       "id": 23,
-      "title":
-        "You know, it really doesn’t matter what the media write as long as you’ve got a young and beautiful piece of ass."
+      "title": "You know, it really doesn’t matter what the media write as long as you’ve got a young and beautiful piece of ass."
     },
     {
-      "query":
-        "You know, it really doesn’t matter what the media write as long as you’ve got a young and beautiful piece of ass.",
+      "query": "You know, it really doesn’t matter what the media write as long as you’ve got a young and beautiful piece of ass.",
       "playFrom": 36,
       "playTo": 184,
       "id": 24,
-      "title":
-        "A certificate of live birth is not the same thing by any stretch of the imagination as a birth certificate."
+      "title": "A certificate of live birth is not the same thing by any stretch of the imagination as a birth certificate."
     },
     {
-      "query":
-        "Laziness is a trait in the blacks. ... Black guys counting my money! I hate it.",
+      "query": "Laziness is a trait in the blacks. ... Black guys counting my money! I hate it.",
       "playFrom": 36,
       "playTo": 184,
       "id": 25,
@@ -240,122 +207,98 @@
       "title": "Listen you mother fuckers, we're going to tax you 25 percent!"
     },
     {
-      "query":
-        "You know, it really doesn’t matter what the media write as long as you’ve got a young and beautiful piece of ass.",
+      "query": "You know, it really doesn’t matter what the media write as long as you’ve got a young and beautiful piece of ass.",
       "playFrom": 36,
       "playTo": 184,
       "id": 26,
-      "title":
-        "You know, it really doesn’t matter what the media write as long as you’ve got a young and beautiful piece of ass."
+      "title": "You know, it really doesn’t matter what the media write as long as you’ve got a young and beautiful piece of ass."
     },
     {
-      "query":
-        "One of the key problems today is that politics is such a disgrace. Good people don’t go into government.",
+      "query": "One of the key problems today is that politics is such a disgrace. Good people don’t go into government.",
       "playFrom": 36,
       "playTo": 184,
       "id": 27,
-      "title":
-        "He's not a war hero. He's a war hero because he was captured. I like people that weren't captured, OK, I hate to tell you."
+      "title": "He's not a war hero. He's a war hero because he was captured. I like people that weren't captured, OK, I hate to tell you."
     },
     {
-      "query":
-        "When was the last time anybody saw us beating, let's say, China in a trade deal? They kill us. I beat China all the time. All the time.",
+      "query": "When was the last time anybody saw us beating, let's say, China in a trade deal? They kill us. I beat China all the time. All the time.",
       "playFrom": 36,
       "playTo": 184,
       "id": 28,
-      "title":
-        "The only kind of people I want counting my money are little short guys that wear yamakas every day."
+      "title": "The only kind of people I want counting my money are little short guys that wear yamakas every day."
     },
     {
       "query": "Listen you mother fuckers, we're going to tax you 25 percent!",
       "playFrom": 36,
       "playTo": 184,
       "id": 29,
-      "title":
-        "Laziness is a trait in the blacks. ... Black guys counting my money! I hate it."
+      "title": "Laziness is a trait in the blacks. ... Black guys counting my money! I hate it."
     },
     {
-      "query":
-        "Laziness is a trait in the blacks. ... Black guys counting my money! I hate it.",
+      "query": "Laziness is a trait in the blacks. ... Black guys counting my money! I hate it.",
       "playFrom": 36,
       "playTo": 184,
       "id": 30,
-      "title":
-        "I will build a great wall — and nobody builds walls better than me, believe me —and I’ll build them very inexpensively. I will build a great, great wall on our southern border, and I will make Mexico pay for that wall. Mark my words."
+      "title": "I will build a great wall — and nobody builds walls better than me, believe me —and I’ll build them very inexpensively. I will build a great, great wall on our southern border, and I will make Mexico pay for that wall. Mark my words."
     },
     {
-      "query":
-        "One of the key problems today is that politics is such a disgrace. Good people don’t go into government.",
+      "query": "One of the key problems today is that politics is such a disgrace. Good people don’t go into government.",
       "playFrom": 36,
       "playTo": 184,
       "id": 31,
-      "title":
-        "The only kind of people I want counting my money are little short guys that wear yamakas every day."
+      "title": "The only kind of people I want counting my money are little short guys that wear yamakas every day."
     },
     {
       "query": "Listen you mother fuckers, we're going to tax you 25 percent!",
       "playFrom": 36,
       "playTo": 184,
       "id": 32,
-      "title":
-        "I will build a great wall — and nobody builds walls better than me, believe me —and I’ll build them very inexpensively. I will build a great, great wall on our southern border, and I will make Mexico pay for that wall. Mark my words."
+      "title": "I will build a great wall — and nobody builds walls better than me, believe me —and I’ll build them very inexpensively. I will build a great, great wall on our southern border, and I will make Mexico pay for that wall. Mark my words."
     },
     {
-      "query":
-        "He's not a war hero. He's a war hero because he was captured. I like people that weren't captured, OK, I hate to tell you.",
+      "query": "He's not a war hero. He's a war hero because he was captured. I like people that weren't captured, OK, I hate to tell you.",
       "playFrom": 36,
       "playTo": 184,
       "id": 33,
-      "title":
-        "One of the key problems today is that politics is such a disgrace. Good people don’t go into government."
+      "title": "One of the key problems today is that politics is such a disgrace. Good people don’t go into government."
     },
     {
-      "query":
-        "The U.S. will invite El Chapo, the Mexican drug lord who just escaped prison, to become a U.S. citizen because our leaders can't say no!",
+      "query": "The U.S. will invite El Chapo, the Mexican drug lord who just escaped prison, to become a U.S. citizen because our leaders can't say no!",
       "playFrom": 36,
       "playTo": 184,
       "id": 34,
-      "title":
-        "The concept of global warming was created by and for the Chinese in order to make U.S. manufacturing non-competitive."
+      "title": "The concept of global warming was created by and for the Chinese in order to make U.S. manufacturing non-competitive."
     },
     {
       "query": "Listen you mother fuckers, we're going to tax you 25 percent!",
       "playFrom": 36,
       "playTo": 184,
       "id": 35,
-      "title":
-        "One of the key problems today is that politics is such a disgrace. Good people don’t go into government."
+      "title": "One of the key problems today is that politics is such a disgrace. Good people don’t go into government."
     },
     {
-      "query":
-        "He's not a war hero. He's a war hero because he was captured. I like people that weren't captured, OK, I hate to tell you.",
+      "query": "He's not a war hero. He's a war hero because he was captured. I like people that weren't captured, OK, I hate to tell you.",
       "playFrom": 36,
       "playTo": 184,
       "id": 36,
-      "title":
-        "You know, it really doesn’t matter what the media write as long as you’ve got a young and beautiful piece of ass."
+      "title": "You know, it really doesn’t matter what the media write as long as you’ve got a young and beautiful piece of ass."
     },
     {
-      "query":
-        "When was the last time anybody saw us beating, let's say, China in a trade deal? They kill us. I beat China all the time. All the time.",
+      "query": "When was the last time anybody saw us beating, let's say, China in a trade deal? They kill us. I beat China all the time. All the time.",
       "playFrom": 36,
       "playTo": 184,
       "id": 37,
-      "title":
-        "The concept of global warming was created by and for the Chinese in order to make U.S. manufacturing non-competitive."
+      "title": "The concept of global warming was created by and for the Chinese in order to make U.S. manufacturing non-competitive."
     },
     {
-      "query":
-        "A certificate of live birth is not the same thing by any stretch of the imagination as a birth certificate.",
+      "query": "A certificate of live birth is not the same thing by any stretch of the imagination as a birth certificate.",
       "playFrom": 36,
       "playTo": 184,
       "id": 38,
-      "title":
-        "Laziness is a trait in the blacks. ... Black guys counting my money! I hate it."
+      "title": "Laziness is a trait in the blacks. ... Black guys counting my money! I hate it."
     },
     {
-      "query":
-        "One of the key problems today is that politics is such a disgrace. Good people don’t go into government.",
+      "query": "One of the key problems today is that politics is such a disgrace. Good people don’t go into government.",
       "playFrom": 36,
       "playTo": 184,
       "id": 39,
@@ -363,8 +306,7 @@
       "title": "The wall will go up and Mexico will start behaving."
     },
     {
-      "query":
-        "I will build a great wall — and nobody builds walls better than me, believe me —and I’ll build them very inexpensively. I will build a great, great wall on our southern border, and I will make Mexico pay for that wall. Mark my words.",
+      "query": "I will build a great wall — and nobody builds walls better than me, believe me —and I’ll build them very inexpensively. I will build a great, great wall on our southern border, and I will make Mexico pay for that wall. Mark my words.",
       "playFrom": 36,
       "playTo": 184,
       "id": 40,
@@ -372,8 +314,7 @@
       "title": "The wall will go up and Mexico will start behaving."
     },
     {
-      "query":
-        "If you can’t get rich dealing with politicians, there’s something wrong with you.",
+      "query": "If you can’t get rich dealing with politicians, there’s something wrong with you.",
       "playFrom": 36,
       "playTo": 184,
       "id": 41,
@@ -389,17 +330,14 @@
       "title": "Listen you mother fuckers, we're going to tax you 25 percent!"
     },
     {
-      "query":
-        "I will build a great wall — and nobody builds walls better than me, believe me —and I’ll build them very inexpensively. I will build a great, great wall on our southern border, and I will make Mexico pay for that wall. Mark my words.",
+      "query": "I will build a great wall — and nobody builds walls better than me, believe me —and I’ll build them very inexpensively. I will build a great, great wall on our southern border, and I will make Mexico pay for that wall. Mark my words.",
       "playFrom": 36,
       "playTo": 184,
       "id": 43,
-      "title":
-        "The U.S. will invite El Chapo, the Mexican drug lord who just escaped prison, to become a U.S. citizen because our leaders can't say no!"
+      "title": "The U.S. will invite El Chapo, the Mexican drug lord who just escaped prison, to become a U.S. citizen because our leaders can't say no!"
     },
     {
-      "query":
-        "He's not a war hero. He's a war hero because he was captured. I like people that weren't captured, OK, I hate to tell you.",
+      "query": "He's not a war hero. He's a war hero because he was captured. I like people that weren't captured, OK, I hate to tell you.",
       "playFrom": 36,
       "playTo": 184,
       "id": 44,
@@ -407,61 +345,49 @@
       "title": "Listen you mother fuckers, we're going to tax you 25 percent!"
     },
     {
-      "query":
-        "Laziness is a trait in the blacks. ... Black guys counting my money! I hate it.",
+      "query": "Laziness is a trait in the blacks. ... Black guys counting my money! I hate it.",
       "playFrom": 36,
       "playTo": 184,
       "id": 45,
-      "title":
-        "He's not a war hero. He's a war hero because he was captured. I like people that weren't captured, OK, I hate to tell you."
+      "title": "He's not a war hero. He's a war hero because he was captured. I like people that weren't captured, OK, I hate to tell you."
     },
     {
       "query": "Listen you mother fuckers, we're going to tax you 25 percent!",
       "playFrom": 36,
       "playTo": 184,
       "id": 46,
-      "title":
-        "You know, it really doesn’t matter what the media write as long as you’ve got a young and beautiful piece of ass."
+      "title": "You know, it really doesn’t matter what the media write as long as you’ve got a young and beautiful piece of ass."
     },
     {
-      "query":
-        "He's not a war hero. He's a war hero because he was captured. I like people that weren't captured, OK, I hate to tell you.",
+      "query": "He's not a war hero. He's a war hero because he was captured. I like people that weren't captured, OK, I hate to tell you.",
       "playFrom": 36,
       "playTo": 184,
       "id": 47,
-      "title":
-        "A certificate of live birth is not the same thing by any stretch of the imagination as a birth certificate."
+      "title": "A certificate of live birth is not the same thing by any stretch of the imagination as a birth certificate."
     },
     {
-      "query":
-        "The U.S. will invite El Chapo, the Mexican drug lord who just escaped prison, to become a U.S. citizen because our leaders can't say no!",
+      "query": "The U.S. will invite El Chapo, the Mexican drug lord who just escaped prison, to become a U.S. citizen because our leaders can't say no!",
       "playFrom": 36,
       "playTo": 184,
       "id": 48,
-      "title":
-        "He's not a war hero. He's a war hero because he was captured. I like people that weren't captured, OK, I hate to tell you."
+      "title": "He's not a war hero. He's a war hero because he was captured. I like people that weren't captured, OK, I hate to tell you."
     },
     {
-      "query":
-        "If you can’t get rich dealing with politicians, there’s something wrong with you.",
+      "query": "If you can’t get rich dealing with politicians, there’s something wrong with you.",
       "playFrom": 36,
       "playTo": 184,
       "id": 49,
-      "title":
-        "He's not a war hero. He's a war hero because he was captured. I like people that weren't captured, OK, I hate to tell you."
+      "title": "He's not a war hero. He's a war hero because he was captured. I like people that weren't captured, OK, I hate to tell you."
     },
     {
-      "query":
-        "Laziness is a trait in the blacks. ... Black guys counting my money! I hate it.",
+      "query": "Laziness is a trait in the blacks. ... Black guys counting my money! I hate it.",
       "playFrom": 36,
       "playTo": 184,
       "id": 50,
-      "title":
-        "If you can’t get rich dealing with politicians, there’s something wrong with you."
+      "title": "If you can’t get rich dealing with politicians, there’s something wrong with you."
     },
     {
-      "query":
-        "The U.S. will invite El Chapo, the Mexican drug lord who just escaped prison, to become a U.S. citizen because our leaders can't say no!",
+      "query": "The U.S. will invite El Chapo, the Mexican drug lord who just escaped prison, to become a U.S. citizen because our leaders can't say no!",
       "playFrom": 36,
       "playTo": 184,
       "id": 51,
@@ -469,8 +395,7 @@
       "title": "The wall will go up and Mexico will start behaving."
     },
     {
-      "query":
-        "He's not a war hero. He's a war hero because he was captured. I like people that weren't captured, OK, I hate to tell you.",
+      "query": "He's not a war hero. He's a war hero because he was captured. I like people that weren't captured, OK, I hate to tell you.",
       "playFrom": 36,
       "playTo": 184,
       "id": 52,
@@ -478,133 +403,105 @@
       "title": "The wall will go up and Mexico will start behaving."
     },
     {
-      "query":
-        "The only kind of people I want counting my money are little short guys that wear yamakas every day.",
+      "query": "The only kind of people I want counting my money are little short guys that wear yamakas every day.",
       "playFrom": 36,
       "playTo": 184,
       "id": 53,
-      "title":
-        "The concept of global warming was created by and for the Chinese in order to make U.S. manufacturing non-competitive."
+      "title": "The concept of global warming was created by and for the Chinese in order to make U.S. manufacturing non-competitive."
     },
     {
-      "query":
-        "If you can’t get rich dealing with politicians, there’s something wrong with you.",
+      "query": "If you can’t get rich dealing with politicians, there’s something wrong with you.",
       "playFrom": 36,
       "playTo": 184,
       "id": 54,
-      "title":
-        "You know, it really doesn’t matter what the media write as long as you’ve got a young and beautiful piece of ass."
+      "title": "You know, it really doesn’t matter what the media write as long as you’ve got a young and beautiful piece of ass."
     },
     {
-      "query":
-        "The concept of global warming was created by and for the Chinese in order to make U.S. manufacturing non-competitive.",
+      "query": "The concept of global warming was created by and for the Chinese in order to make U.S. manufacturing non-competitive.",
       "playFrom": 36,
       "playTo": 184,
       "id": 55,
-      "title":
-        "He's not a war hero. He's a war hero because he was captured. I like people that weren't captured, OK, I hate to tell you."
+      "title": "He's not a war hero. He's a war hero because he was captured. I like people that weren't captured, OK, I hate to tell you."
     },
     {
-      "query":
-        "A certificate of live birth is not the same thing by any stretch of the imagination as a birth certificate.",
+      "query": "A certificate of live birth is not the same thing by any stretch of the imagination as a birth certificate.",
       "playFrom": 36,
       "playTo": 184,
       "id": 56,
-      "title":
-        "Laziness is a trait in the blacks. ... Black guys counting my money! I hate it."
+      "title": "Laziness is a trait in the blacks. ... Black guys counting my money! I hate it."
     },
     {
-      "query":
-        "He's not a war hero. He's a war hero because he was captured. I like people that weren't captured, OK, I hate to tell you.",
+      "query": "He's not a war hero. He's a war hero because he was captured. I like people that weren't captured, OK, I hate to tell you.",
       "playFrom": 36,
       "playTo": 184,
       "id": 57,
-      "title":
-        "You know, it really doesn’t matter what the media write as long as you’ve got a young and beautiful piece of ass."
+      "title": "You know, it really doesn’t matter what the media write as long as you’ve got a young and beautiful piece of ass."
     },
     {
-      "query":
-        "A certificate of live birth is not the same thing by any stretch of the imagination as a birth certificate.",
+      "query": "A certificate of live birth is not the same thing by any stretch of the imagination as a birth certificate.",
       "playFrom": 36,
       "playTo": 184,
       "id": 58,
-      "title":
-        "When was the last time anybody saw us beating, let's say, China in a trade deal? They kill us. I beat China all the time. All the time."
+      "title": "When was the last time anybody saw us beating, let's say, China in a trade deal? They kill us. I beat China all the time. All the time."
     },
     {
       "query": "The wall will go up and Mexico will start behaving.",
       "playFrom": 36,
       "playTo": 184,
       "id": 59,
-      "title":
-        "When was the last time anybody saw us beating, let's say, China in a trade deal? They kill us. I beat China all the time. All the time."
+      "title": "When was the last time anybody saw us beating, let's say, China in a trade deal? They kill us. I beat China all the time. All the time."
     },
     {
-      "query":
-        "When was the last time anybody saw us beating, let's say, China in a trade deal? They kill us. I beat China all the time. All the time.",
+      "query": "When was the last time anybody saw us beating, let's say, China in a trade deal? They kill us. I beat China all the time. All the time.",
       "playFrom": 36,
       "playTo": 184,
       "id": 60,
-      "title":
-        "The only kind of people I want counting my money are little short guys that wear yamakas every day."
+      "title": "The only kind of people I want counting my money are little short guys that wear yamakas every day."
     },
     {
-      "query":
-        "When was the last time anybody saw us beating, let's say, China in a trade deal? They kill us. I beat China all the time. All the time.",
+      "query": "When was the last time anybody saw us beating, let's say, China in a trade deal? They kill us. I beat China all the time. All the time.",
       "playFrom": 36,
       "playTo": 184,
       "id": 61,
-      "title":
-        "The U.S. will invite El Chapo, the Mexican drug lord who just escaped prison, to become a U.S. citizen because our leaders can't say no!"
+      "title": "The U.S. will invite El Chapo, the Mexican drug lord who just escaped prison, to become a U.S. citizen because our leaders can't say no!"
     },
     {
-      "query":
-        "The U.S. will invite El Chapo, the Mexican drug lord who just escaped prison, to become a U.S. citizen because our leaders can't say no!",
+      "query": "The U.S. will invite El Chapo, the Mexican drug lord who just escaped prison, to become a U.S. citizen because our leaders can't say no!",
       "playFrom": 36,
       "playTo": 184,
       "id": 62,
-      "title":
-        "The U.S. will invite El Chapo, the Mexican drug lord who just escaped prison, to become a U.S. citizen because our leaders can't say no!"
+      "title": "The U.S. will invite El Chapo, the Mexican drug lord who just escaped prison, to become a U.S. citizen because our leaders can't say no!"
     },
     {
-      "query":
-        "The concept of global warming was created by and for the Chinese in order to make U.S. manufacturing non-competitive.",
+      "query": "The concept of global warming was created by and for the Chinese in order to make U.S. manufacturing non-competitive.",
       "playFrom": 36,
       "playTo": 184,
       "id": 63,
-      "title":
-        "The U.S. will invite El Chapo, the Mexican drug lord who just escaped prison, to become a U.S. citizen because our leaders can't say no!"
+      "title": "The U.S. will invite El Chapo, the Mexican drug lord who just escaped prison, to become a U.S. citizen because our leaders can't say no!"
     },
     {
-      "query":
-        "You know, it really doesn’t matter what the media write as long as you’ve got a young and beautiful piece of ass.",
+      "query": "You know, it really doesn’t matter what the media write as long as you’ve got a young and beautiful piece of ass.",
       "playFrom": 36,
       "playTo": 184,
       "id": 64,
-      "title":
-        "I will build a great wall — and nobody builds walls better than me, believe me —and I’ll build them very inexpensively. I will build a great, great wall on our southern border, and I will make Mexico pay for that wall. Mark my words."
+      "title": "I will build a great wall — and nobody builds walls better than me, believe me —and I’ll build them very inexpensively. I will build a great, great wall on our southern border, and I will make Mexico pay for that wall. Mark my words."
     },
     {
-      "query":
-        "He's not a war hero. He's a war hero because he was captured. I like people that weren't captured, OK, I hate to tell you.",
+      "query": "He's not a war hero. He's a war hero because he was captured. I like people that weren't captured, OK, I hate to tell you.",
       "playFrom": 36,
       "playTo": 184,
       "id": 65,
-      "title":
-        "A certificate of live birth is not the same thing by any stretch of the imagination as a birth certificate."
+      "title": "A certificate of live birth is not the same thing by any stretch of the imagination as a birth certificate."
     },
     {
-      "query":
-        "The only kind of people I want counting my money are little short guys that wear yamakas every day.",
+      "query": "The only kind of people I want counting my money are little short guys that wear yamakas every day.",
       "playFrom": 36,
       "playTo": 184,
       "id": 66,
-      "title":
-        "A certificate of live birth is not the same thing by any stretch of the imagination as a birth certificate."
+      "title": "A certificate of live birth is not the same thing by any stretch of the imagination as a birth certificate."
     },
     {
-      "query":
-        "Laziness is a trait in the blacks. ... Black guys counting my money! I hate it.",
+      "query": "Laziness is a trait in the blacks. ... Black guys counting my money! I hate it.",
       "playFrom": 36,
       "playTo": 184,
       "id": 67,
@@ -612,8 +509,7 @@
       "title": "The wall will go up and Mexico will start behaving."
     },
     {
-      "query":
-        "Laziness is a trait in the blacks. ... Black guys counting my money! I hate it.",
+      "query": "Laziness is a trait in the blacks. ... Black guys counting my money! I hate it.",
       "playFrom": 36,
       "playTo": 184,
       "id": 68,
@@ -621,8 +517,7 @@
       "title": "The wall will go up and Mexico will start behaving."
     },
     {
-      "query":
-        "I will build a great wall — and nobody builds walls better than me, believe me —and I’ll build them very inexpensively. I will build a great, great wall on our southern border, and I will make Mexico pay for that wall. Mark my words.",
+      "query": "I will build a great wall — and nobody builds walls better than me, believe me —and I’ll build them very inexpensively. I will build a great, great wall on our southern border, and I will make Mexico pay for that wall. Mark my words.",
       "playFrom": 36,
       "playTo": 184,
       "id": 69,
@@ -630,35 +525,28 @@
       "title": "Listen you mother fuckers, we're going to tax you 25 percent!"
     },
     {
-      "query":
-        "A certificate of live birth is not the same thing by any stretch of the imagination as a birth certificate.",
+      "query": "A certificate of live birth is not the same thing by any stretch of the imagination as a birth certificate.",
       "playFrom": 36,
       "playTo": 184,
       "id": 70,
-      "title":
-        "He's not a war hero. He's a war hero because he was captured. I like people that weren't captured, OK, I hate to tell you."
+      "title": "He's not a war hero. He's a war hero because he was captured. I like people that weren't captured, OK, I hate to tell you."
     },
     {
-      "query":
-        "When was the last time anybody saw us beating, let's say, China in a trade deal? They kill us. I beat China all the time. All the time.",
+      "query": "When was the last time anybody saw us beating, let's say, China in a trade deal? They kill us. I beat China all the time. All the time.",
       "playFrom": 36,
       "playTo": 184,
       "id": 71,
-      "title":
-        "The U.S. will invite El Chapo, the Mexican drug lord who just escaped prison, to become a U.S. citizen because our leaders can't say no!"
+      "title": "The U.S. will invite El Chapo, the Mexican drug lord who just escaped prison, to become a U.S. citizen because our leaders can't say no!"
     },
     {
-      "query":
-        "You know, it really doesn’t matter what the media write as long as you’ve got a young and beautiful piece of ass.",
+      "query": "You know, it really doesn’t matter what the media write as long as you’ve got a young and beautiful piece of ass.",
       "playFrom": 36,
       "playTo": 184,
       "id": 72,
-      "title":
-        "I will build a great wall — and nobody builds walls better than me, believe me —and I’ll build them very inexpensively. I will build a great, great wall on our southern border, and I will make Mexico pay for that wall. Mark my words."
+      "title": "I will build a great wall — and nobody builds walls better than me, believe me —and I’ll build them very inexpensively. I will build a great, great wall on our southern border, and I will make Mexico pay for that wall. Mark my words."
     },
     {
-      "query":
-        "Laziness is a trait in the blacks. ... Black guys counting my money! I hate it.",
+      "query": "Laziness is a trait in the blacks. ... Black guys counting my money! I hate it.",
       "playFrom": 36,
       "playTo": 184,
       "id": 73,
@@ -674,120 +562,95 @@
       "title": "The wall will go up and Mexico will start behaving."
     },
     {
-      "query":
-        "A certificate of live birth is not the same thing by any stretch of the imagination as a birth certificate.",
+      "query": "A certificate of live birth is not the same thing by any stretch of the imagination as a birth certificate.",
       "playFrom": 36,
       "playTo": 184,
       "id": 75,
-      "title":
-        "A certificate of live birth is not the same thing by any stretch of the imagination as a birth certificate."
+      "title": "A certificate of live birth is not the same thing by any stretch of the imagination as a birth certificate."
     },
     {
-      "query":
-        "A certificate of live birth is not the same thing by any stretch of the imagination as a birth certificate.",
+      "query": "A certificate of live birth is not the same thing by any stretch of the imagination as a birth certificate.",
       "playFrom": 36,
       "playTo": 184,
       "id": 76,
-      "title":
-        "Laziness is a trait in the blacks. ... Black guys counting my money! I hate it."
+      "title": "Laziness is a trait in the blacks. ... Black guys counting my money! I hate it."
     },
     {
-      "query":
-        "I will build a great wall — and nobody builds walls better than me, believe me —and I’ll build them very inexpensively. I will build a great, great wall on our southern border, and I will make Mexico pay for that wall. Mark my words.",
+      "query": "I will build a great wall — and nobody builds walls better than me, believe me —and I’ll build them very inexpensively. I will build a great, great wall on our southern border, and I will make Mexico pay for that wall. Mark my words.",
       "playFrom": 36,
       "playTo": 184,
       "id": 77,
-      "title":
-        "The concept of global warming was created by and for the Chinese in order to make U.S. manufacturing non-competitive."
+      "title": "The concept of global warming was created by and for the Chinese in order to make U.S. manufacturing non-competitive."
     },
     {
-      "query":
-        "I will build a great wall — and nobody builds walls better than me, believe me —and I’ll build them very inexpensively. I will build a great, great wall on our southern border, and I will make Mexico pay for that wall. Mark my words.",
+      "query": "I will build a great wall — and nobody builds walls better than me, believe me —and I’ll build them very inexpensively. I will build a great, great wall on our southern border, and I will make Mexico pay for that wall. Mark my words.",
       "playFrom": 36,
       "playTo": 184,
       "id": 78,
-      "title":
-        "When was the last time anybody saw us beating, let's say, China in a trade deal? They kill us. I beat China all the time. All the time."
+      "title": "When was the last time anybody saw us beating, let's say, China in a trade deal? They kill us. I beat China all the time. All the time."
     },
     {
-      "query":
-        "The only kind of people I want counting my money are little short guys that wear yamakas every day.",
+      "query": "The only kind of people I want counting my money are little short guys that wear yamakas every day.",
       "playFrom": 36,
       "playTo": 184,
       "id": 79,
-      "title":
-        "A certificate of live birth is not the same thing by any stretch of the imagination as a birth certificate."
+      "title": "A certificate of live birth is not the same thing by any stretch of the imagination as a birth certificate."
     },
     {
-      "query":
-        "The only kind of people I want counting my money are little short guys that wear yamakas every day.",
+      "query": "The only kind of people I want counting my money are little short guys that wear yamakas every day.",
       "playFrom": 36,
       "playTo": 184,
       "id": 80,
-      "title":
-        "The only kind of people I want counting my money are little short guys that wear yamakas every day."
+      "title": "The only kind of people I want counting my money are little short guys that wear yamakas every day."
     },
     {
-      "query":
-        "Laziness is a trait in the blacks. ... Black guys counting my money! I hate it.",
+      "query": "Laziness is a trait in the blacks. ... Black guys counting my money! I hate it.",
       "playFrom": 36,
       "playTo": 184,
       "id": 81,
-      "title":
-        "Laziness is a trait in the blacks. ... Black guys counting my money! I hate it."
+      "title": "Laziness is a trait in the blacks. ... Black guys counting my money! I hate it."
     },
     {
-      "query":
-        "If you can’t get rich dealing with politicians, there’s something wrong with you.",
+      "query": "If you can’t get rich dealing with politicians, there’s something wrong with you.",
       "playFrom": 36,
       "playTo": 184,
       "id": 82,
-      "title":
-        "One of the key problems today is that politics is such a disgrace. Good people don’t go into government."
+      "title": "One of the key problems today is that politics is such a disgrace. Good people don’t go into government."
     },
     {
-      "query":
-        "The concept of global warming was created by and for the Chinese in order to make U.S. manufacturing non-competitive.",
+      "query": "The concept of global warming was created by and for the Chinese in order to make U.S. manufacturing non-competitive.",
       "playFrom": 36,
       "playTo": 184,
       "id": 83,
-      "title":
-        "You know, it really doesn’t matter what the media write as long as you’ve got a young and beautiful piece of ass."
+      "title": "You know, it really doesn’t matter what the media write as long as you’ve got a young and beautiful piece of ass."
     },
     {
-      "query":
-        "When was the last time anybody saw us beating, let's say, China in a trade deal? They kill us. I beat China all the time. All the time.",
+      "query": "When was the last time anybody saw us beating, let's say, China in a trade deal? They kill us. I beat China all the time. All the time.",
       "playFrom": 36,
       "playTo": 184,
       "id": 84,
-      "title":
-        "He's not a war hero. He's a war hero because he was captured. I like people that weren't captured, OK, I hate to tell you."
+      "title": "He's not a war hero. He's a war hero because he was captured. I like people that weren't captured, OK, I hate to tell you."
     },
     {
-      "query":
-        "I will build a great wall — and nobody builds walls better than me, believe me —and I’ll build them very inexpensively. I will build a great, great wall on our southern border, and I will make Mexico pay for that wall. Mark my words.",
+      "query": "I will build a great wall — and nobody builds walls better than me, believe me —and I’ll build them very inexpensively. I will build a great, great wall on our southern border, and I will make Mexico pay for that wall. Mark my words.",
       "playFrom": 36,
       "playTo": 184,
       "id": 85,
-      "title":
-        "You know, it really doesn’t matter what the media write as long as you’ve got a young and beautiful piece of ass."
+      "title": "You know, it really doesn’t matter what the media write as long as you’ve got a young and beautiful piece of ass."
     },
     {
-      "query":
-        "The concept of global warming was created by and for the Chinese in order to make U.S. manufacturing non-competitive.",
+      "query": "The concept of global warming was created by and for the Chinese in order to make U.S. manufacturing non-competitive.",
       "playFrom": 36,
       "playTo": 184,
       "id": 86,
-      "title":
-        "When was the last time anybody saw us beating, let's say, China in a trade deal? They kill us. I beat China all the time. All the time."
+      "title": "When was the last time anybody saw us beating, let's say, China in a trade deal? They kill us. I beat China all the time. All the time."
     },
     {
       "query": "The wall will go up and Mexico will start behaving.",
       "playFrom": 36,
       "playTo": 184,
       "id": 87,
-      "title":
-        "The only kind of people I want counting my money are little short guys that wear yamakas every day."
+      "title": "The only kind of people I want counting my money are little short guys that wear yamakas every day."
     },
     {
       "query": "late july",

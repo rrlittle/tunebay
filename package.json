@@ -60,8 +60,10 @@
     "start": "concurrently \"npm run client\" \"npm run api\"",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom",
-    "api": "nodemon  api/server.js",
-    "client": "node scripts/start.js"
+    "api": "python tunebay_server",
+    "api2": "nodemon api/server.js",
+    "client": "node scripts/start.js",
+    "foo": "echo $PATH"
   },
   "devDependencies": {
     "chokidar": "^2.0.2",
@@ -72,12 +74,8 @@
     "nodemon": "^1.17.2"
   },
   "jest": {
-    "collectCoverageFrom": [
-      "src/**/*.{js,jsx,mjs}"
-    ],
-    "setupFiles": [
-      "<rootDir>/config/polyfills.js"
-    ],
+    "collectCoverageFrom": ["src/**/*.{js,jsx,mjs}"],
+    "setupFiles": ["<rootDir>/config/polyfills.js"],
     "testMatch": [
       "<rootDir>/src/**/__tests__/**/*.{js,jsx,mjs}",
       "<rootDir>/src/**/?(*.)(spec|test).{js,jsx,mjs}"
@@ -87,11 +85,10 @@
     "transform": {
       "^.+\\.(js|jsx|mjs)$": "<rootDir>/node_modules/babel-jest",
       "^.+\\.css$": "<rootDir>/config/jest/cssTransform.js",
-      "^(?!.*\\.(js|jsx|mjs|css|json)$)": "<rootDir>/config/jest/fileTransform.js"
+      "^(?!.*\\.(js|jsx|mjs|css|json)$)":
+        "<rootDir>/config/jest/fileTransform.js"
     },
-    "transformIgnorePatterns": [
-      "[/\\\\]node_modules[/\\\\].+\\.(js|jsx|mjs)$"
-    ],
+    "transformIgnorePatterns": ["[/\\\\]node_modules[/\\\\].+\\.(js|jsx|mjs)$"],
     "moduleNameMapper": {
       "^react-native$": "react-native-web"
     },
@@ -106,13 +103,8 @@
     ]
   },
   "babel": {
-    "presets": [
-      "react-app"
-    ],
-    "plugins": [
-      "transform-decorators-legacy",
-      "transform-class-properties"
-    ]
+    "presets": ["react-app"],
+    "plugins": ["transform-decorators-legacy", "transform-class-properties"]
   },
   "eslintConfig": {
     "extends": "react-app"

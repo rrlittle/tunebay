@@ -1,3 +1,4 @@
+import { api } from "../../../config/domains";
 export class QueueStore {
 	getRows = ({
 		endRow,
@@ -9,7 +10,7 @@ export class QueueStore {
 	}) => {
 		console.log(endRow, startRow, filterModel, sortModel);
 		// fetch stuff based on these params!
-		fetch(`http://localhost:3001/queue?_start=${startRow}&_end=${endRow}`)
+		fetch(`${api}/queue?_start=${startRow}&_end=${endRow}`)
 			.then(resp => resp.json())
 			.then(data => {
 				successCallback(data.results, data.count);

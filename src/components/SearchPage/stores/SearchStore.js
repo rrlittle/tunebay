@@ -42,7 +42,7 @@ export class SearchStore {
   constructor({
     parent,
     id,
-    query,
+    query = "",
     start,
     end,
     results,

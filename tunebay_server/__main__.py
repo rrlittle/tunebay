@@ -1,0 +1,8 @@
+from server import app
+
+if __name__ == '__main__':
+    app.run(
+        host=app.config.get('FLASK_HOST', 'localhost'),
+        port=app.config.get('FLASK_PORT', 5000),
+        debug=app.config.get('FLASK_DEBUG', True),
+    )
