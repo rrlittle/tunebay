@@ -39,19 +39,17 @@ class DownloadList(Resource):
         return
 
     def get(self):
-        print(request.args)
         start = int_or_none(request.args.get('_start'))
         end = int_or_none(request.args.get('_end'))
-
         downloads = DownloadModel.get_all(True)
         return {'count': len(downloads), "results": downloads[start:end]}
+        # return {'count': len(downloads), "results": []}
 
     def post(self):
         data = request.get_json()
         try:
             dl = DownloadModel(data)
+            dl.save()
         except ValidationError as e:
-            print('here')
             return {'error': str(e)}, 400
-        dl.save()
         return dl.dump()

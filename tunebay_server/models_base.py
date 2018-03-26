@@ -10,15 +10,12 @@ class Base:
     schema = BaseSchema()
 
     def __init__(self, fields):
-        self.fields = {}
-        field_names = list(self.schema._declared_fields.keys())
-        for name in field_names:
-            self.fields[name] = fields.get(name, None)
-
-        if not self.id:
-            self.fields['id'] = self.new_id()
-
-        self.validate()
+        if 'id' not in fields:
+            fields['id'] = self.new_id()
+        self.fields = fields
+        self.preprocessors()
+        # self.fields = self.validate(fields)
+        print('CREATED WITH DATA', self.fields)
 
     @classmethod
     def new_id(cls):
@@ -92,17 +89,17 @@ class Base:
     def get(self, key, default=None):
         return self.fields.get(key, default)
 
-    def validate(self):
-        marshal = self.schema.load(self.fields)
+    def validate(self, fields=None):
+        marshal = self.schema.load(fields if fields else self.fields)
         if marshal.errors:
-            raise ValidationError({'error': marshal.errors})
+            raise ValidationError(marshal.errors)
+        return marshal.data
 
     def save(self):
         '''save this object to a file '''
-        self. validate()
+        data = self.dump(True)
         if(not isdir(self.folder())):
             makedirs(self.folder())
-        data = dumps(self.fields)
         file = open(self.path, 'w')
         file.write(data)
         return self.path, data
@@ -113,12 +110,21 @@ class Base:
             remove(self.path)
         return self
 
-    def dump(self):
+    def dump(self, stringify=False):
         '''return json serializable version of this'''
-        marshal = self.schema.dump(self.fields)
+
+        marshal = self.schema.load(self.fields)
+        # loading adds in missing data and whatnot
         if marshal.errors:
-            raise ValidationError({"error": marshal.errors})
-        return marshal.data
+            # if tere are uncorrectable errors fail
+            raise ValidationError(marshal.errors)
+        # load returns python objects such as datetimes. serialize those
+        return (self.schema.dumps(marshal.data).data if stringify
+                else self.schema.dump(marshal.data).data)
+
+    def preprocessors(self):
+        ''' hook to add validators and initializers to this object'''
+        return
 
     def __repr__(self):
         name = self.__class__.__name__

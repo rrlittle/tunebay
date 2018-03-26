@@ -134,6 +134,7 @@ export class SearchStore {
         query: this.searchQuery,
         playFrom: this.playFrom,
         playTo: this.playTo,
+        src: { to: "https://youtube.com", name: "youtube" },
         videoId,
         title,
         thumbnail
