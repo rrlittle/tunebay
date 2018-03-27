@@ -59,8 +59,11 @@
   "scripts": {
     "start":
       "concurrently \"npm run backend\"  \"npm run client\" \"npm run api\"",
-    "backend": "concurrently \"npm run celery\" \"npm run redis\"",
+    "backend":
+      "concurrently \"npm run redis\" \"npm run beat\" \"npm run celery\" ",
     "celery": "celery -A tunebay_server.celery worker",
+    "beat":
+      "celery beat -A tunebay_server.celery --schedule=/tmp/celerybeat-schedule --pidfile=/tmp/celerybeat.pid",
     "redis": "redis-server",
     "api": "python tunebay_server",
     "api2": "nodemon api/server.js",
