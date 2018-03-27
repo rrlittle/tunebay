@@ -9,8 +9,8 @@ from flask import Blueprint
 from flask_restful.utils import cors
 from os.path import dirname, abspath, split
 
-from search.resources import Search, SearchList
-from download.resources import Download, DownloadList
+from .search.resources import Search, SearchList
+from .download.resources import Download, DownloadList
 
 # from resources.downloadList import DownloadList
 

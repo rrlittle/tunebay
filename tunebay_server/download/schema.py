@@ -38,25 +38,25 @@ class DownloadSchema(BaseSchema):
     # finished = fields.DateTime(allow_none=True)
 
 
-x = {
-    "id": 5,
-    "playFrom": 0,
-    "playTo": 192,
-    "query": "the wolf",
-    "thumbnail": "https://i.ytimg.com/vi/lX44CAz-JhU/default.jpg",
-    "title": "SIAMES - The Wolf [Official Video]",
-    "videoId": "lX44CAz-JhU",
-    'src': {'name': 'youtube', 'to': 'asdfsd'}
-}
+# x = {
+#     "id": 5,
+#     "playFrom": 0,
+#     "playTo": 192,
+#     "query": "the wolf",
+#     "thumbnail": "https://i.ytimg.com/vi/lX44CAz-JhU/default.jpg",
+#     "title": "SIAMES - The Wolf [Official Video]",
+#     "videoId": "lX44CAz-JhU",
+#     'src': {'name': 'youtube', 'to': 'asdfsd'}
+# }
 
 
-D = DownloadSchema()
-print('#######################\n\n\n\n')
-d1 = D.load(x)
-print('\n\n\n\n')
-print('LOADED-----', d1)
-print('\n\n\n\n')
-d = D.dump(d1.data)
-print('\n\n\n\n')
-print('DUMPED----', d)
-print('\n\n\n\n')
+# D = DownloadSchema()
+# print('#######################\n\n\n\n')
+# d1 = D.load(x)
+# print('\n\n\n\n')
+# print('LOADED-----', d1)
+# print('\n\n\n\n')
+# d = D.dump(d1.data)
+# print('\n\n\n\n')
+# print('DUMPED----', d)
+# print('\n\n\n\n')

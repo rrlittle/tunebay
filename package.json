@@ -57,13 +57,16 @@
     "whatwg-fetch": "2.0.3"
   },
   "scripts": {
-    "start": "concurrently \"npm run client\" \"npm run api\"",
-    "build": "node scripts/build.js",
-    "test": "node scripts/test.js --env=jsdom",
+    "start":
+      "concurrently \"npm run backend\"  \"npm run client\" \"npm run api\"",
+    "backend": "concurrently \"npm run celery\" \"npm run redis\"",
+    "celery": "celery -A tunebay_server.celery worker",
+    "redis": "redis-server",
     "api": "python tunebay_server",
     "api2": "nodemon api/server.js",
     "client": "node scripts/start.js",
-    "foo": "echo $PATH"
+    "build": "node scripts/build.js",
+    "test": "node scripts/test.js --env=jsdom"
   },
   "devDependencies": {
     "chokidar": "^2.0.2",
